@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-char  character;
-int interger;
-long int interger_32;
-long long int interger_64;
-float floating_point;
-printf("Size of a char: %lu byte(s)\n", (unsigned long) sizeof(character));
-printf("Size of an int: %lu byte(s)\n", (unsigned long) sizeof(interger));
-printf("Size of a long int: %lu byte(s)\n", (unsigned long) sizeof(interger_32));
-printf("Size of a long long int: %lu byte(s)\n", (unsigned long) sizeof(interger_64));
-printf("Size of a float: %lu byte(s)\n", (unsigned long) sizeof(floating_point));
+char  a;
+int b;
+long int c;
+long long int d;
+float e;
+printf("Size of a char: %lu byte(s)\n", (unsigned long) sizeof(a));
+printf("Size of an int: %lu byte(s)\n", (unsigned long) sizeof(b));
+printf("Size of a long int: %lu byte(s)\n", (unsigned long) sizeof(c));
+printf("Size of a long long int: %lu byte(s)\n", (unsigned long) sizeof(d));
+printf("Size of a float: %lu byte(s)\n", (unsigned long) sizeof(e));
 return (0);
 }
