@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <time.h>
+//#include <time.h>
 #include <stdlib.h>
 /* main - function to be ran.
  * Return: (0) succsess.
@@ -10,8 +10,9 @@ int main (void)
 {	
 
 	int n;
-	
-	if(n > 0)
+//	srand(time(0));
+//	n = rand() - RAND / 2;
+	if (n > 0)
 	{
 	printf("%d is positive\n" ,n);
 	}
