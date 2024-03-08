@@ -1,26 +1,33 @@
 #include <stdio.h>
-/**
- * print_two_digits - Prints a number as two digits
- * @num: The number to print
- * jack_bauer - Prints every minute of the day
- */
+#include "main.h"
 
-void print_two_digits(int num)
-{
-	putchar('0' + num / 10);
-	putchar('0' + num % 10);
-}
+/**
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ *
+ * starting from 00:00 to 23:59
+ *
+ */
 
 void jack_bauer(void)
 {
-	for (int hour = 0; hour < 24; hour++)
+	int hr, min;
+
+	hr = 0;
+
+	while (hr < 24)
 	{
-		print_two_digits(hour);
-		putchar(':');
-		for (int minute = 0; minute < 60; minute++)
+		j = min;
+
+		while (min < 60)
 		{
-		print_two_digits(minute);
-		putchar('\n');
+			_putchar((hr / 10) + '0');
+			_putchar((hr % 10) + '0');
+			_putchar(':');
+			_putchar((min / 10) + '0');
+			_putchar((min % 10) + '0');
+			_putchar('\n');
+			min++;
 		}
+		min++;
 	}
 }
