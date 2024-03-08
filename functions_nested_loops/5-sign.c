@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
+ * print_sign - prints sign and number.
+ *@n: is the number being chcked
  * Return: Always 0.
  */
 
