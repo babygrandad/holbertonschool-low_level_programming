@@ -4,6 +4,7 @@
 /**
  * _isalpha-check if character is lowercase or uppercase
  * Return: 1-if lowercase/uppercase,0 otherwise
+ * @letter: is the variable to be checked for lowercase or uppercase
  */
 
 
