@@ -19,4 +19,4 @@
 >
 > _Mark Pearce_
 
-![C-Language Meme](https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2F6z5jyo5od3161.png%3Fauto%3Dwebp%26s%3Dece8ec3b629f1ffea47b6fc46892c4fd01426d4b "Daily Life of a junior C Dev")
+![C-Language Meme](./angry-c-user.jpg "Daily Life of a junior C Dev")
